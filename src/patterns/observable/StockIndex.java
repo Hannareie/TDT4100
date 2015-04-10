@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class StockIndex implements StockListener{
 
+	@SuppressWarnings("unused")
 	private String navn;
 	private double indeks = 0;
 	private ArrayList<Stock> observere = new ArrayList<Stock>();
